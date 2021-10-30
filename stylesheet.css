@@ -1,0 +1,119 @@
+header{  
+    font-size: larger;
+    background-color: rgb(92, 92, 92);    
+    height: 80px;
+    /* position: relative; */
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.header-logo{
+    float: left;
+    font-size: 40px;
+    padding: 20px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+.header-list ul{
+    font-family: 'Franklin Gothic Medium'; 
+    /*float:left;*/
+    list-style: none;  
+    margin-top:10px;  
+}
+.header-list li{
+    float: left;
+    padding: 30px 10px;
+    position:relative;  
+}
+.special-container{
+    background-color: #e0bbbb;
+    margin: 25px 0px;
+    height:250px;
+    /*box-shadow: 100px;*/
+    border-radius: 10px;
+    
+}
+#pizzaPic{
+    border-radius: 10px 0px 0px 10px;
+}
+.special-picture{
+    float:left; 
+}
+
+.special-para{
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    /* width: 500px; */
+}
+.special-para span{
+    color: red;
+}
+#top-para{
+    text-align: center;
+    width:1000px;
+    position: relative;
+    left:250px;
+}
+
+.selection-wrapper{
+    float:left;
+    margin: 20px 0px;
+}
+.selection{
+    background-color: rgba(148, 18, 18, 0.288);
+    float: left;
+    position: relative;
+    width: 250px;
+    text-align: center; 
+    height: auto;
+    border-radius: 10px;
+    display: grid;
+}
+.selection h1{
+    margin:0;
+}
+.sel-image{
+    /* height: auto; */
+    width: fit-content;
+    border-radius: 10px 10px 0px 0px;
+}
+footer{    
+    margin-top: 490px;
+    background-color: #e08d8d;
+    height: fit-content;
+    border-radius: 10px;
+    z-index: -10;
+}
+footer p{
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    left: 100px;
+    margin-top: 85px;
+    display: inline;
+    float: left;
+}
+footer .icons-container{
+    position: relative;
+    left: 120px;
+}
+i{
+    font-size: 25px;
+    padding: 0px 2.5px;
+    margin-top: 84px;
+}
+.footer-container{
+    position: relative;
+    left:200px;
+    width: 1000px;
+    border: none;
+}
+.delivery{
+    float: right;
+    margin-top: -125px;
+    margin-right: 250px;
+}
+#hdp{
+    float: right;
+
+}
